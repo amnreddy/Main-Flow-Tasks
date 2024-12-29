@@ -6,20 +6,20 @@ Resposibilties: This task focuses on analyzing a dataset and extracting meaningf
 
 Step by step Process:
 
-Step 1:Import Libraries like  
--pandas: For data manipulation and analysis.
--numpy: For numerical computations.
--matplotlib and seaborn: For data visualization.
+Step 1:Import Libraries like 
+* pandas: For data manipulation and analysis.
+* numpy: For numerical computations.
+* matplotlib and seaborn: For data visualization.
 
 Step 2: Data Loading and Data Exploaration 
--The dataset is loaded using pandas.
--The first few rows are displayed using .head() to understand its structure.
--Used .info() to check data types and missing values.
--Used .describe() for statistical summaries of numerical columns.
+* The dataset is loaded using pandas.
+* The first few rows are displayed using .head() to understand its structure.
+* Used .info() to check data types and missing values.
+* Used .describe() for statistical summaries of numerical columns.
 
 Step 3: Data Cleaning
--Handled missing values by either filling them (fillna) or dropping them (dropna).
--Detected and removed outliers using boxplots.
+* Handled missing values by either filling them (fillna) or dropping them (dropna).
+* Detected and removed outliers using boxplots.
 
 Step 4: Data Analysis on different questions
 * Calculate the average score in math (G3).
